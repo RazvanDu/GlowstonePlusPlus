@@ -55,11 +55,6 @@ https://github.com/GlowstonePlusPlus/Glowkit/tree/bukkit+glowkit -->
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>org.dragonet</groupId>
-            <artifactId>dragonet</artifactId>
-            <version>0.0.3-preR2</version>
-        </dependency>
-        <dependency>
             <groupId>jline</groupId>
             <artifactId>jline</artifactId>
             <version>2.11</version>
