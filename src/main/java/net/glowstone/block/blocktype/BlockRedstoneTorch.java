@@ -43,11 +43,11 @@ public class BlockRedstoneTorch extends BlockNeedsAttached {
 
     public static BlockFace getAttachedBlockFace(GlowBlock block) {
         MaterialData data = block.getState().getData();
-+        if (data instanceof SimpleAttachableMaterialData) {
-+            return ((SimpleAttachableMaterialData) data).getAttachedFace();
-+        } else {
-+            return BlockFace.DOWN;
-+        }
+        if (data instanceof SimpleAttachableMaterialData) {
+            return ((SimpleAttachableMaterialData) data).getAttachedFace();
+        } else {
+            return BlockFace.DOWN;
+        }
     }
 
     @Override
